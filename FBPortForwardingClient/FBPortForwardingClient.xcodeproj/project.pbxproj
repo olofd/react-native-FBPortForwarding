@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6309035E1D1BF78000617C22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309035D1D1BF78000617C22 /* main.m */; };
+		6309036B1D1BF81000617C22 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 630903681D1BF81000617C22 /* AsyncSocket.m */; };
+		6309036C1D1BF81000617C22 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309036A1D1BF81000617C22 /* AsyncUdpSocket.m */; };
+		630903711D1BF81700617C22 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309036E1D1BF81700617C22 /* GCDAsyncSocket.m */; };
+		630903721D1BF81700617C22 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 630903701D1BF81700617C22 /* GCDAsyncUdpSocket.m */; };
+		630903761D1BF83300617C22 /* FBPortForwardingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 630903741D1BF83300617C22 /* FBPortForwardingClient.m */; };
+		6309037F1D1BF84200617C22 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 630903791D1BF84200617C22 /* PTChannel.m */; };
+		630903801D1BF84200617C22 /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309037C1D1BF84200617C22 /* PTProtocol.m */; };
+		630903811D1BF84200617C22 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309037E1D1BF84200617C22 /* PTUSBHub.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		630903581D1BF78000617C22 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6309035A1D1BF78000617C22 /* FBPortForwardingClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FBPortForwardingClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		6309035D1D1BF78000617C22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		630903671D1BF81000617C22 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = CocoaAsyncSocket/RunLoop/AsyncSocket.h; sourceTree = "<group>"; };
+		630903681D1BF81000617C22 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = CocoaAsyncSocket/RunLoop/AsyncSocket.m; sourceTree = "<group>"; };
+		630903691D1BF81000617C22 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = CocoaAsyncSocket/RunLoop/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		6309036A1D1BF81000617C22 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = CocoaAsyncSocket/RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		6309036D1D1BF81700617C22 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = CocoaAsyncSocket/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		6309036E1D1BF81700617C22 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = CocoaAsyncSocket/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		6309036F1D1BF81700617C22 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = CocoaAsyncSocket/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		630903701D1BF81700617C22 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = CocoaAsyncSocket/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		630903731D1BF83300617C22 /* FBPortForwardingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBPortForwardingClient.h; path = ../../FBPortForwarding/FBPortForwarding/FBPortForwardingClient.h; sourceTree = "<group>"; };
+		630903741D1BF83300617C22 /* FBPortForwardingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBPortForwardingClient.m; path = ../../FBPortForwarding/FBPortForwarding/FBPortForwardingClient.m; sourceTree = "<group>"; };
+		630903751D1BF83300617C22 /* FBPortForwardingCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBPortForwardingCommon.h; path = ../../FBPortForwarding/FBPortForwarding/FBPortForwardingCommon.h; sourceTree = "<group>"; };
+		630903771D1BF84200617C22 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = prefix.pch; path = ../../peertalk/peertalk/prefix.pch; sourceTree = "<group>"; };
+		630903781D1BF84200617C22 /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTChannel.h; path = ../../peertalk/peertalk/PTChannel.h; sourceTree = "<group>"; };
+		630903791D1BF84200617C22 /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTChannel.m; path = ../../peertalk/peertalk/PTChannel.m; sourceTree = "<group>"; };
+		6309037A1D1BF84200617C22 /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTPrivate.h; path = ../../peertalk/peertalk/PTPrivate.h; sourceTree = "<group>"; };
+		6309037B1D1BF84200617C22 /* PTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTProtocol.h; path = ../../peertalk/peertalk/PTProtocol.h; sourceTree = "<group>"; };
+		6309037C1D1BF84200617C22 /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTProtocol.m; path = ../../peertalk/peertalk/PTProtocol.m; sourceTree = "<group>"; };
+		6309037D1D1BF84200617C22 /* PTUSBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTUSBHub.h; path = ../../peertalk/peertalk/PTUSBHub.h; sourceTree = "<group>"; };
+		6309037E1D1BF84200617C22 /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTUSBHub.m; path = ../../peertalk/peertalk/PTUSBHub.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630903571D1BF78000617C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630903511D1BF78000617C22 = {
+			isa = PBXGroup;
+			children = (
+				6309035C1D1BF78000617C22 /* FBPortForwardingClient */,
+				6309035B1D1BF78000617C22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6309035B1D1BF78000617C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6309035A1D1BF78000617C22 /* FBPortForwardingClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6309035C1D1BF78000617C22 /* FBPortForwardingClient */ = {
+			isa = PBXGroup;
+			children = (
+				630903661D1BF7D700617C22 /* peertalk */,
+				630903651D1BF7CA00617C22 /* FBPortForwarding */,
+				630903641D1BF7C400617C22 /* CocoaAsyncSocket */,
+				6309035D1D1BF78000617C22 /* main.m */,
+			);
+			path = FBPortForwardingClient;
+			sourceTree = "<group>";
+		};
+		630903641D1BF7C400617C22 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				6309036D1D1BF81700617C22 /* GCDAsyncSocket.h */,
+				6309036E1D1BF81700617C22 /* GCDAsyncSocket.m */,
+				6309036F1D1BF81700617C22 /* GCDAsyncUdpSocket.h */,
+				630903701D1BF81700617C22 /* GCDAsyncUdpSocket.m */,
+				630903671D1BF81000617C22 /* AsyncSocket.h */,
+				630903681D1BF81000617C22 /* AsyncSocket.m */,
+				630903691D1BF81000617C22 /* AsyncUdpSocket.h */,
+				6309036A1D1BF81000617C22 /* AsyncUdpSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		630903651D1BF7CA00617C22 /* FBPortForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				630903731D1BF83300617C22 /* FBPortForwardingClient.h */,
+				630903741D1BF83300617C22 /* FBPortForwardingClient.m */,
+				630903751D1BF83300617C22 /* FBPortForwardingCommon.h */,
+			);
+			name = FBPortForwarding;
+			sourceTree = "<group>";
+		};
+		630903661D1BF7D700617C22 /* peertalk */ = {
+			isa = PBXGroup;
+			children = (
+				630903771D1BF84200617C22 /* prefix.pch */,
+				630903781D1BF84200617C22 /* PTChannel.h */,
+				630903791D1BF84200617C22 /* PTChannel.m */,
+				6309037A1D1BF84200617C22 /* PTPrivate.h */,
+				6309037B1D1BF84200617C22 /* PTProtocol.h */,
+				6309037C1D1BF84200617C22 /* PTProtocol.m */,
+				6309037D1D1BF84200617C22 /* PTUSBHub.h */,
+				6309037E1D1BF84200617C22 /* PTUSBHub.m */,
+			);
+			name = peertalk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630903591D1BF78000617C22 /* FBPortForwardingClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630903611D1BF78000617C22 /* Build configuration list for PBXNativeTarget "FBPortForwardingClient" */;
+			buildPhases = (
+				630903561D1BF78000617C22 /* Sources */,
+				630903571D1BF78000617C22 /* Frameworks */,
+				630903581D1BF78000617C22 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBPortForwardingClient;
+			productName = FBPortForwardingClient;
+			productReference = 6309035A1D1BF78000617C22 /* FBPortForwardingClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630903521D1BF78000617C22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Olof Dahlbom";
+				TargetAttributes = {
+					630903591D1BF78000617C22 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 630903551D1BF78000617C22 /* Build configuration list for PBXProject "FBPortForwardingClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 630903511D1BF78000617C22;
+			productRefGroup = 6309035B1D1BF78000617C22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630903591D1BF78000617C22 /* FBPortForwardingClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630903561D1BF78000617C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630903711D1BF81700617C22 /* GCDAsyncSocket.m in Sources */,
+				630903721D1BF81700617C22 /* GCDAsyncUdpSocket.m in Sources */,
+				6309037F1D1BF84200617C22 /* PTChannel.m in Sources */,
+				6309036C1D1BF81000617C22 /* AsyncUdpSocket.m in Sources */,
+				6309035E1D1BF78000617C22 /* main.m in Sources */,
+				630903801D1BF84200617C22 /* PTProtocol.m in Sources */,
+				630903761D1BF83300617C22 /* FBPortForwardingClient.m in Sources */,
+				630903811D1BF84200617C22 /* PTUSBHub.m in Sources */,
+				6309036B1D1BF81000617C22 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6309035F1D1BF78000617C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		630903601D1BF78000617C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		630903621D1BF78000617C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		630903631D1BF78000617C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630903551D1BF78000617C22 /* Build configuration list for PBXProject "FBPortForwardingClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6309035F1D1BF78000617C22 /* Debug */,
+				630903601D1BF78000617C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630903611D1BF78000617C22 /* Build configuration list for PBXNativeTarget "FBPortForwardingClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630903621D1BF78000617C22 /* Debug */,
+				630903631D1BF78000617C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630903521D1BF78000617C22 /* Project object */;
+}
