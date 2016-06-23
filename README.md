@@ -2,7 +2,7 @@
 
 Run react-native over USB. Sending bundle over USB instead of network.
 Perfect for work-place scenarios where you do not have access from phone to computer.
-Also great if you are a big team and you don't want to be dependent on IP-adresses.
+Also great if you are a big team and you don't want to be dependent on IP-addresses.
 
 * cd FBPortForwardingDemo
 * npm install
