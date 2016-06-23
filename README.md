@@ -12,7 +12,7 @@ Should start two terminals when you run from xcode.
 the React-Native packager
 and FBPortForwardingClient/peertalk-client.
 
-Bundle will be transfered over USB
+Bundle will be transferred over USB
 
 All credits go to Facebook.
 Source:
