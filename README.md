@@ -13,3 +13,7 @@ the React-Native packager
 and FBPortForwardingClient/peertalk-client.
 
 Bundle will be transfered over USB
+
+All credits go to Facebook.
+Source:
+https://github.com/facebook/react-native/tree/master/Tools/FBPortForwarding
